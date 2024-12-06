@@ -13,9 +13,27 @@ return {
     "rose-pine/neovim",
   },
   {
+    "rebelot/kanagawa.nvim",
+  },
+  {
+    "sainnhe/everforest",
+  },
+  {
+    "eldritch-theme/eldritch.nvim",
+  },
+  {
+    "oxfist/night-owl.nvim",
+  },
+  {
+    "morhetz/gruvbox",
+  },
+  {
+    "Shatur/neovim-ayu",
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "ayu-mirage",
     },
   },
 }
