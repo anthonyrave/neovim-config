@@ -11,9 +11,24 @@ return {
   },
   {
     "rose-pine/neovim",
-  },
-  {
-    "rebelot/kanagawa.nvim",
+    name = "rose-pine",
+    opts = {
+      styles = {
+        bold = true,
+        italic = true,
+        transparency = true,
+      },
+      highlight_groups = {
+        CurSearch = { fg = "base", bg = "leaf", inherit = false },
+        Search = { fg = "text", bg = "leaf", blend = 20, inherit = false },
+        TelescopeBorder = { fg = "highlight_high", bg = "none" },
+        TelescopeNormal = { bg = "none" },
+        TelescopePromptNormal = { bg = "base" },
+        TelescopeResultsNormal = { fg = "subtle", bg = "none" },
+        TelescopeSelection = { fg = "text", bg = "base" },
+        TelescopeSelectionCaret = { fg = "rose", bg = "rose" },
+      },
+    },
   },
   {
     "sainnhe/everforest",
@@ -25,7 +40,10 @@ return {
     "oxfist/night-owl.nvim",
   },
   {
-    "morhetz/gruvbox",
+    "ellisonleao/gruvbox.nvim",
+    opts = {
+      transparent_mode = true,
+    },
   },
   {
     "Shatur/neovim-ayu",
@@ -33,7 +51,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "ayu-mirage",
+      colorscheme = "rose-pine",
     },
   },
 }

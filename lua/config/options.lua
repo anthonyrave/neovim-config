@@ -3,3 +3,6 @@
 -- Add any additional options here
 
 vim.g.netrw_banner = 0
+-- vim.g.lazyvim_php_lsp = "intelephense"
+
+vim.o.scrolloff = 8

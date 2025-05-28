@@ -4,3 +4,4 @@
 local map = LazyVim.safe_keymap_set
 
 map("n", "<leader>pv", "<cmd>Explore<cr>", { desc = "Netwr" })
+map("n", "<leader>z", "<cmd>ZenMode<cr>", { desc = "ZenMode" })
